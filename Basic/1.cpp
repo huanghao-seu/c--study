@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-11 double num=1.234567890;
+ double num=1.234567890;
  float  nam=1234567890;
  cout<<fixed;
 cout<<num<<"我"<<nam<<endl;
