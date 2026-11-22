@@ -1,2 +1,12 @@
+# 编译产物
 *.exe
-*.vscode
+*.o
+*.obj
+*.stackdump
+
+# 构建输出目录
+build/
+out/
+
+# 说明：.vscode/ 里的 tasks.json / launch.json / c_cpp_properties.json
+# 是有意提交的（换电脑后可以直接 F5），所以不要整体忽略 .vscode/
